@@ -17,3 +17,15 @@ make setup
 make train
 make serve
 ```
+
+## Example use case — Credit Risk Prediction
+
+This notebook (`notebooks/01_credit_risk_walkthrough.ipynb`) demonstrates
+how to train, evaluate, and explain a credit-risk model using scikit-learn and SHAP.
+
+**Key outputs**
+| File | Description |
+|------|--------------|
+| `reports/roc_curve.png` | ROC curve showing model discrimination |
+| `reports/shap_summary.png` | SHAP feature importance |
+| `models/credit_risk.joblib` | Serialized end-to-end pipeline |
